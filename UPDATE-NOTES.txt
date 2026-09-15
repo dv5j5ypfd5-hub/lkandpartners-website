@@ -1,12 +1,1 @@
-V3 DESKTOP FIX — 15 September 2026
-
-This build preserves the approved V3 design and changes the responsive implementation:
-- Full desktop navigation remains visible for browser widths above 760px.
-- The hero remains a two-column integrated composition on Mac/desktop widths.
-- The hero image no longer jumps above the green copy panel at the previous 1050px breakpoint.
-- Header/logo/navigation compress proportionally on smaller Mac windows.
-- Three service panels remain across on desktop.
-- Dedicated mobile layout begins at 760px and below.
-- Existing testimonial images, contact details, pages and content are retained.
-
-Upload all files and the assets folder to the root of the GitHub repository, replacing the existing versions.
+Final desktop hero rebuild. The hero is now structurally one full-width photograph with a separate gradient overlay pseudo-element; there is no left green hero column. Desktop/Mac keeps benefits and CTA buttons on one row. Mobile remains intentionally stacked.
