@@ -52,3 +52,85 @@
   .testimonial-card img{width:74px;height:74px}
   .cards,.quotes,.split,.contact-grid,.intentional-grid,.about-grid,.service-grid{grid-template-columns:1fr!important}
 }
+
+/* APPROVED V3 HOMEPAGE — screenshot-matched desktop composition */
+@media (min-width: 761px){
+  .site-header{height:64px;padding:7px 4.8%;position:sticky}
+  .brand{width:285px;max-width:30vw}
+  .site-header nav{gap:27px}
+  .site-header nav a{font-size:12px;white-space:nowrap}
+  .nav-cta{padding:11px 20px!important}
+
+  .hero-v3{
+    display:block;
+    position:relative;
+    min-height:0;
+    height:305px;
+    background-image:
+      linear-gradient(90deg,rgba(5,37,32,.98) 0%,rgba(5,37,32,.95) 24%,rgba(5,37,32,.72) 38%,rgba(5,37,32,.20) 51%,rgba(5,37,32,0) 65%),
+      url('assets/hero-office.png');
+    background-size:cover;
+    background-position:center 53%;
+    overflow:hidden;
+  }
+  .hero-copy-v3{width:52%;padding:31px 0 25px 5%;color:#fff;position:relative;z-index:1}
+  .hero-copy-v3 .eyebrow{font-size:10px;letter-spacing:1.6px;margin-bottom:7px}
+  .hero-copy-v3 h1{font-size:52px;line-height:.90;letter-spacing:-1.5px;margin:0 0 9px;white-space:nowrap}
+  .hero-copy-v3 h1 br{display:none}
+  .hero-copy-v3 h1 em{margin-left:.15em}
+  .hero-tagline{font-size:20px;margin:0 0 18px;white-space:nowrap}
+  .benefit-line{display:flex;flex-wrap:nowrap;margin:0 0 20px;white-space:nowrap}
+  .benefit-line span{font-size:14px;padding:0 18px;line-height:1.1}
+  .benefit-line span:first-child{padding-left:0}
+  .actions{display:flex;gap:18px;flex-wrap:nowrap}
+  .btn{padding:11px 22px;font-size:13px}
+  .hero-photo{display:none!important}
+
+  .service-strip{grid-template-columns:repeat(3,1fr)}
+  .service-strip article{grid-template-columns:120px 1fr;gap:18px;padding:16px 4.8%;min-height:137px}
+  .service-strip img{width:120px;height:106px}
+  .service-strip h2{font-size:20px;line-height:1.08;margin-bottom:5px}
+  .service-strip p{font-size:12px;line-height:1.35;margin-bottom:7px}
+  .service-strip a{font-size:12px}
+
+  .proof{grid-template-columns:1.05fr repeat(3,1fr) .72fr;gap:10px;padding:18px 4.8%;min-height:205px}
+  .proof-intro h2{font-size:35px;margin:6px 0 12px}
+  .proof-intro p:last-child{font-size:11px;line-height:1.35}
+  .proof .eyebrow{font-size:9px;letter-spacing:1.4px}
+  .testimonial-card{grid-template-columns:60px 1fr;padding:11px;gap:9px}
+  .testimonial-card img{width:60px;height:60px}
+  .testimonial-card blockquote{font-size:10.5px;line-height:1.35;margin:2px 0 7px}
+  .testimonial-card p{font-size:10.5px;line-height:1.25}
+  .testimonial-card strong{font-size:13px}
+  .rating{grid-column:auto;border-top:0;border-left:1px solid var(--line);padding:0 0 0 18px;display:block}
+  .rating>strong{font-size:40px}
+  .stars{font-size:18px}
+  .rating p:last-child{font-size:10px;line-height:1.3}
+
+  .closing{min-height:96px;padding:15px 5%}
+  .closing h2{font-size:28px;margin:1px 0}
+  .closing p{font-size:12px}
+  .closing .eyebrow{font-size:9px;margin-bottom:3px}
+  .closing .btn{min-width:180px}
+}
+
+@media (min-width: 761px) and (max-width: 1050px){
+  .site-header{padding-left:3%;padding-right:3%}
+  .brand{width:235px}
+  .site-header nav{gap:13px}
+  .site-header nav a{font-size:11px}
+  .hero-v3{height:330px;background-position:center}
+  .hero-copy-v3{width:56%;padding-left:4%}
+  .hero-copy-v3 h1{font-size:44px}
+  .hero-tagline{font-size:17px}
+  .benefit-line span{font-size:12px;padding:0 10px}
+  .service-strip article{grid-template-columns:90px 1fr;padding:15px 2.5%}
+  .service-strip img{width:90px;height:90px}
+  .proof{grid-template-columns:.9fr repeat(3,1fr);padding-left:3%;padding-right:3%}
+  .rating{grid-column:1/-1;border-left:0;border-top:1px solid var(--line);padding:12px 0 0;display:flex;gap:18px;align-items:center}
+}
+
+@media (max-width:760px){
+  .hero-v3{background:var(--green)}
+  .hero-v3::before{content:"";display:block;height:270px;background:url('assets/hero-office.png') center/cover no-repeat}
+}
