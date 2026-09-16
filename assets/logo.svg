@@ -1,8 +1,7 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 115" role="img" aria-labelledby="title desc">
-<title id="title">LK and Partners</title><desc id="desc">Fine gold infinity mark with LK and Partners wordmark</desc>
-<g fill="none" stroke="#c99b47" stroke-width="5" stroke-linecap="round" stroke-linejoin="round">
-<path d="M20 48 C20 14 61 5 86 29 L118 61 C143 86 184 78 184 46 C184 14 143 6 118 30 L87 61 C62 86 20 79 20 48 Z"/>
-</g>
-<text x="215" y="53" font-family="Georgia, 'Times New Roman', serif" font-size="35" letter-spacing="3" fill="#142e2a">LK AND PARTNERS</text>
-<text x="218" y="79" font-family="Arial, sans-serif" font-size="11" letter-spacing="5" fill="#142e2a">AMBITION, WITH INTENTION.</text>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 620 100" role="img" aria-label="LK and Partners — Ambition, with intention.">
+  <g fill="none" stroke="#c99b47" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M12 42 C12 15 45 7 66 26 L91 50 C111 70 144 64 144 40 C144 16 112 9 91 28 L66 52 C45 72 12 66 12 42 Z"/>
+  </g>
+  <text x="172" y="45" font-family="Georgia, 'Times New Roman', serif" font-size="29" letter-spacing="3.2" fill="#142e2a">LK AND PARTNERS</text>
+  <text x="174" y="68" font-family="Arial, sans-serif" font-size="8.5" letter-spacing="4.4" fill="#142e2a">AMBITION, WITH INTENTION.</text>
 </svg>
