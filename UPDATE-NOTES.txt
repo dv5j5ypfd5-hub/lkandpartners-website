@@ -1,1 +1,10 @@
-Final desktop hero rebuild. The hero is now structurally one full-width photograph with a separate gradient overlay pseudo-element; there is no left green hero column. Desktop/Mac keeps benefits and CTA buttons on one row. Mobile remains intentionally stacked.
+Homepage refinement — 16 September 2026
+
+Changes:
+- thinner gold infinity logo and wider SVG viewBox so LK AND PARTNERS is not cropped
+- hero quote restored as responsive HTML overlay
+- LEAD / DEVELOP / MAKE A DIFFERENCE lettering removed from book spines
+- testimonial names aligned to the same baseline
+- Real people / Real impact sector order changed to private, public, charitable, education
+- 5.8/6 stars removed and replaced by 100% WOULD RECOMMEND / Based on participant feedback
+- existing desktop layout preserved
