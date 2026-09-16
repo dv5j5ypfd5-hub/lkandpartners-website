@@ -1,5 +1,0 @@
-LK & PARTNERS V6
-Upload the FILES AND ASSETS FOLDER in this directory directly to the ROOT of your GitHub repository.
-Do NOT upload the enclosing lkandpartners-v6 folder itself.
-After commit, wait for GitHub Pages deployment, then hard-refresh Safari (Cmd+Shift+R).
-The homepage CSS is cache-busted as home.css?v=6.1.
