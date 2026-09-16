@@ -1,10 +1,10 @@
-Homepage refinement — 16 September 2026
-
-Changes:
-- thinner gold infinity logo and wider SVG viewBox so LK AND PARTNERS is not cropped
-- hero quote restored as responsive HTML overlay
-- LEAD / DEVELOP / MAKE A DIFFERENCE lettering removed from book spines
-- testimonial names aligned to the same baseline
-- Real people / Real impact sector order changed to private, public, charitable, education
-- 5.8/6 stars removed and replaced by 100% WOULD RECOMMEND / Based on participant feedback
-- existing desktop layout preserved
+LK & Partners Website V5
+Homepage corrections:
+- Fine/thinner gold infinity logo.
+- Full LK AND PARTNERS wordmark retained without cropping.
+- Hero quote is present once in the hero artwork.
+- Book-spine wording removed from hero artwork.
+- Participant rating replaced by 100% / WOULD RECOMMEND OUR SERVICES.
+- Testimonial names/titles aligned to a consistent baseline.
+- Testimonial details corrected: Andrea Bell — Principal; Angelo Calix — Director of Operations, KM2 Solutions; Moira Green — Executive Principal.
+- Real People / Real Impact copy lists sectors in this order: private, public, charitable, education.
